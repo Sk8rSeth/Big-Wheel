@@ -1,7 +1,7 @@
 # Big Wheel
  3D-printed video control surface
 
-Slapped together in a weekend by Zack Freedman of Voidstar Lab for [a YouTube video! Check it out!](https://www.youtube.com/watch?v=72a85tWOJVY)
+This is a fork of the BigWheel by Zack Freedman of Voidstar Lab for [a YouTube video! Check it out!](https://www.youtube.com/watch?v=72a85tWOJVY) Designed for the Pro Micro controller, and for Davinci Resolve instead of Premiere Pro.
 
 Materials:
 - 1x each of:
@@ -20,7 +20,7 @@ Materials:
 - 4x PEC12-compatible rotary encoders with pushbutton, 15mm flatted shaft preferred
 - 3x encoder knobs, max. diameter 22mm
 - 6x rubber feet, thicker than the head of the M2.5 screws
-- 1x Teensy LC, Teensy 3.x, or Teensy 4.0
+- 1x Arduino Pro micro (clone or real)
 - Zap-a-Gap or other adhesive that can bond your 3D-printing material
 - Lots of wire and heatshrink
 
