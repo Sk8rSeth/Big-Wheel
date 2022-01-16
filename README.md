@@ -1,4 +1,4 @@
-# Big Wheel
+# Pro Micro Big Wheel for Davinci Resolve
  3D-printed video control surface
 
 This is a fork of the BigWheel by Zack Freedman of Voidstar Lab for [a YouTube video! Check it out!](https://www.youtube.com/watch?v=72a85tWOJVY) Designed for the Pro Micro controller, and for Davinci Resolve instead of Premiere Pro.
