@@ -1,36 +1,37 @@
 // Defining encoder pins responsible for "rotating"
-#define E1_S1 3
-#define E1_S2 2
-#define E2_S1 0
-#define E2_S2 1
-#define E3_S1 6
-#define E3_S2 7
-#define E4_S1 4
-#define E4_S2 20
+#define E1 3 //topknobA
+#define E2 2 //topKnobB
+#define E3 0 //middleKnobA
+#define E4 1 //middleKnobB
+#define E5 6 //lowerKnobA
+#define E6 7 //lowerKnobB
+#define E7 4 //WheelA
+#define E8 20 //WheelB
 
-const byte allEncPins[] = { E1_S1, E1_S2, // TopRightEnc
-                            E2_S1, E2_S2, // MiddleRightEnc
-                            E3_S1, E3_S2, // BottomRightEnc
-                            E4_S1, E4_S2  // WheelEnc
+const byte allEncPins[] = { E1, E2, // TopRightEnc
+                            E3, E4, // MiddleRightEnc
+                            E5, E6, // BottomRightEnc
+                            E7, E8  // WheelEnc
                           };
 
 // To simplify wiring I got two columns and nine rows = 11 pins in total.
 // But one column is gnd, so that's 10 pins for 18 buttons.
 // Pro Micro is lacking pins comparing to Teensy.
 // Look at wiring diagram for better understandig
-#define button1_E4 7
-#define button2_E3 6
-#define button3_E2 5
-#define button4_E1 2
-#define button5_6 3
-#define button7_8 21
-#define button9_10 20
-#define button11_12 19
-#define button13_14 18
-#define orangeLine A6
+#define G5 5
+#define B3 8
+#define B2 9
+#define G1 10
+#define B4 16
+#define B5 14
+#define B6 15
+#define G3 18
+#define G2 19
+#define B1 21
 
 
-const byte allButtonRowPins[] = {button1_E4, button2_E3, button3_E2,
-                                 button4_E1, button5_6, button7_8,
-                                 button9_10, button11_12, button13_14
+
+const byte allButtonRowPins[] = {G5, B3, B2, G1, 
+                                 B4, B5, B6,
+                                 G3, G2, B1
                                 };

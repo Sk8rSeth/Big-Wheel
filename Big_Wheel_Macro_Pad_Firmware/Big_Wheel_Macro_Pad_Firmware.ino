@@ -23,10 +23,10 @@
 //#define DEBUG_PLOT_WHEEL_SPEED
 //#define DEBUG_SHUTTLE
 
-Encoder topKnob(topKnobA, topKnobB);
-Encoder middleKnob(middleKnobA, middleKnobB);
-Encoder lowerKnob(lowerKnobA, lowerKnobB);
-Encoder wheel(wheelA, wheelB);
+Encoder topKnob(E1, E2);
+Encoder middleKnob(E3, E4);
+Encoder lowerKnob(E5, E6);
+Encoder wheel(E7, E8);
 
 long lastKnobPositions[4] = {0, 0, 0, 0};
 int lastKnobDeltas[4];
@@ -588,4 +588,3 @@ void loop() {
   delay(10);
 #endif
 }
-
